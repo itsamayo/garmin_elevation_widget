@@ -9,12 +9,11 @@ using Toybox.Time.Gregorian;
 class ElevationView extends WatchUi.View {
 
     hidden var myText;
-    hidden var myText2;
 
     function initialize() {
         View.initialize();
         var dataTimer = new Timer.Timer();
-		dataTimer.start(method(:timerCallback), 10000, true); // A one-second timer  
+		dataTimer.start(method(:timerCallback), 10000, true);
     }
 
     function onShow() {
