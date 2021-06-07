@@ -2,14 +2,14 @@
 <debugInfo>
     <manifest filename="D:\Dev\Garmin\Elevation\manifest.xml"/>
     <pcToLineNum>
-        <entry filename="D:\\Dev\\Garmin\\Elevation\\source\\ElevationApp.mc" id="3" lineNum="10" pc="268435456" symbol="initialize"/>
-        <entry filename="D:\\Dev\\Garmin\\Elevation\\source\\ElevationApp.mc" id="3" lineNum="11" pc="268435460" symbol="initialize"/>
-        <entry filename="D:\\Dev\\Garmin\\Elevation\\source\\ElevationApp.mc" id="4" lineNum="18" pc="268435479" symbol="onStart"/>
-        <entry filename="D:\\Dev\\Garmin\\Elevation\\source\\ElevationApp.mc" id="5" lineNum="23" pc="268435484" symbol="onStop"/>
-        <entry filename="D:\\Dev\\Garmin\\Elevation\\source\\ElevationApp.mc" id="6" lineNum="27" pc="268435489" symbol="getInitialView"/>
-        <entry filename="D:\\Dev\\Garmin\\Elevation\\source\\ElevationApp.mc" id="6" lineNum="29" pc="268435493" symbol="getInitialView"/>
-        <entry filename="D:\\Dev\\Garmin\\Elevation\\source\\ElevationApp.mc" id="7" lineNum="42" pc="268435531" symbol="getApp"/>
-        <entry filename="D:\\Dev\\Garmin\\Elevation\\source\\ElevationApp.mc" id="7" lineNum="43" pc="268435543" symbol="getApp"/>
+        <entry filename="D:\\Dev\\Garmin\\Elevation\\source\\ElevationApp.mc" id="3" lineNum="7" pc="268435456" symbol="initialize"/>
+        <entry filename="D:\\Dev\\Garmin\\Elevation\\source\\ElevationApp.mc" id="3" lineNum="8" pc="268435460" symbol="initialize"/>
+        <entry filename="D:\\Dev\\Garmin\\Elevation\\source\\ElevationApp.mc" id="4" lineNum="13" pc="268435479" symbol="onStart"/>
+        <entry filename="D:\\Dev\\Garmin\\Elevation\\source\\ElevationApp.mc" id="5" lineNum="18" pc="268435484" symbol="onStop"/>
+        <entry filename="D:\\Dev\\Garmin\\Elevation\\source\\ElevationApp.mc" id="6" lineNum="22" pc="268435489" symbol="getInitialView"/>
+        <entry filename="D:\\Dev\\Garmin\\Elevation\\source\\ElevationApp.mc" id="6" lineNum="23" pc="268435493" symbol="getInitialView"/>
+        <entry filename="D:\\Dev\\Garmin\\Elevation\\source\\ElevationApp.mc" id="7" lineNum="28" pc="268435531" symbol="getApp"/>
+        <entry filename="D:\\Dev\\Garmin\\Elevation\\source\\ElevationApp.mc" id="7" lineNum="29" pc="268435543" symbol="getApp"/>
         <entry filename="D:\\Dev\\Garmin\\Elevation\\source\\ElevationView.mc" id="9" lineNum="13" pc="268435560" symbol="initialize"/>
         <entry filename="D:\\Dev\\Garmin\\Elevation\\source\\ElevationView.mc" id="9" lineNum="14" pc="268435564" symbol="initialize"/>
         <entry filename="D:\\Dev\\Garmin\\Elevation\\source\\ElevationView.mc" id="9" lineNum="15" pc="268435582" symbol="initialize"/>
@@ -33,9 +33,9 @@
         <entry filename="D:\\Dev\\Garmin\\Elevation\\source\\ElevationView.mc" id="12" lineNum="55" pc="268436195" symbol="timerCallback"/>
         <entry filename="D:\\Dev\\Garmin\\Elevation\\source\\ElevationView.mc" id="13" lineNum="62" pc="268436215" symbol="onHide"/>
         <entry filename="Rez" id="19" lineNum="18" pc="268436220" symbol="MainLayout"/>
-        <entry filename="Rez" id="19" lineNum="21" pc="268436232" symbol="MainLayout"/>
-        <entry filename="Rez" id="19" lineNum="22" pc="268436351" symbol="MainLayout"/>
-        <entry filename="Rez" id="19" lineNum="24" pc="268436415" symbol="MainLayout"/>
+        <entry filename="Rez" id="19" lineNum="20" pc="268436232" symbol="MainLayout"/>
+        <entry filename="Rez" id="19" lineNum="21" pc="268436351" symbol="MainLayout"/>
+        <entry filename="Rez" id="19" lineNum="23" pc="268436403" symbol="MainLayout"/>
     </pcToLineNum>
     <symbolTable>
         <entry id="8388639" module="true" symbol="Graphics"/>
@@ -102,8 +102,8 @@
         <entry endPc="268436211" name="altMetreNum" stackId="5" startPc="268435905"/>
         <entry endPc="268436211" name="altFeetNum" stackId="4" startPc="268435905"/>
         <entry endPc="268436214" name="positionInfo" stackId="1" startPc="268435861"/>
-        <entry endPc="268436432" name="rez_cmp_local_bitmap_id_monkey" stackId="2" startPc="268436232"/>
-        <entry arg="true" endPc="268436433" name="dc" stackId="1" startPc="268436220"/>
+        <entry endPc="268436420" name="rez_cmp_local_bitmap_id_monkey" stackId="2" startPc="268436232"/>
+        <entry arg="true" endPc="268436421" name="dc" stackId="1" startPc="268436220"/>
     </localVars>
     <annotations>
         <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="id_monkey"/>
