@@ -3,6 +3,8 @@ import Toybox.WatchUi;
 using Toybox.Position;
 using Toybox.System;
 using Toybox.Timer;
+using Toybox.Time;
+using Toybox.Time.Gregorian;
 
 class ElevationView extends WatchUi.View {
 
@@ -12,20 +14,12 @@ class ElevationView extends WatchUi.View {
     function initialize() {
         View.initialize();
         var dataTimer = new Timer.Timer();
-		dataTimer.start(method(:timerCallback), 5000, true); // A one-second timer  
+		dataTimer.start(method(:timerCallback), 10000, true); // A one-second timer  
     }
 
     function onShow() {
         myText = new WatchUi.Text({
-            :text=>"waiting for data ...",
-            :color=>Graphics.COLOR_WHITE,
-            :font=>Graphics.FONT_SMALL,
-            :locX =>WatchUi.LAYOUT_HALIGN_CENTER,
-            :locY=>WatchUi.LAYOUT_VALIGN_CENTER
-        });
-        
-        myText2 = new WatchUi.Text({
-            :text=>"tets ...",
+            :text=>"waiting for GPS data ...",
             :color=>Graphics.COLOR_WHITE,
             :font=>Graphics.FONT_SMALL,
             :locX =>WatchUi.LAYOUT_HALIGN_CENTER,
@@ -45,7 +39,20 @@ class ElevationView extends WatchUi.View {
 	        var altitude = positionInfo.altitude;	        
 	        var altFeet = altitude*3.28084;
 	        var altFeetNum = altFeet.toNumber();
-	        myText.setText("Altitude:\n" + altFeetNum.toString() + "ft");
+	        var altMetreNum = altitude.toNumber();
+	        var today = Gregorian.info(Time.now(), Time.FORMAT_MEDIUM);
+			var dateString = Lang.format(
+			    "$1$:$2$:$3$ $4$ $5$ $6$",
+			    [
+			        today.hour,
+			        today.min,
+			        today.sec,
+			        today.day_of_week,
+			        today.day,
+			        today.month
+			    ]
+			);
+	        myText.setText("GPS altitude:\n" + altFeetNum.toString() + "ft" + "\n" + altMetreNum.toString() + "m" + "\n" + dateString);
 	        WatchUi.requestUpdate();
 	    }
 	}

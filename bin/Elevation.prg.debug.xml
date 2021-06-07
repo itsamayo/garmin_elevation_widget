@@ -10,30 +10,32 @@
         <entry filename="D:\\Dev\\Garmin\\Elevation\\source\\ElevationApp.mc" id="6" lineNum="29" pc="268435493" symbol="getInitialView"/>
         <entry filename="D:\\Dev\\Garmin\\Elevation\\source\\ElevationApp.mc" id="7" lineNum="42" pc="268435531" symbol="getApp"/>
         <entry filename="D:\\Dev\\Garmin\\Elevation\\source\\ElevationApp.mc" id="7" lineNum="43" pc="268435543" symbol="getApp"/>
-        <entry filename="D:\\Dev\\Garmin\\Elevation\\source\\ElevationView.mc" id="9" lineNum="12" pc="268435560" symbol="initialize"/>
-        <entry filename="D:\\Dev\\Garmin\\Elevation\\source\\ElevationView.mc" id="9" lineNum="13" pc="268435564" symbol="initialize"/>
-        <entry filename="D:\\Dev\\Garmin\\Elevation\\source\\ElevationView.mc" id="9" lineNum="14" pc="268435582" symbol="initialize"/>
-        <entry filename="D:\\Dev\\Garmin\\Elevation\\source\\ElevationView.mc" id="9" lineNum="15" pc="268435610" symbol="initialize"/>
-        <entry filename="D:\\Dev\\Garmin\\Elevation\\source\\ElevationView.mc" id="10" lineNum="18" pc="268435646" symbol="onShow"/>
-        <entry filename="D:\\Dev\\Garmin\\Elevation\\source\\ElevationView.mc" id="10" lineNum="19" pc="268435650" symbol="onShow"/>
-        <entry filename="D:\\Dev\\Garmin\\Elevation\\source\\ElevationView.mc" id="10" lineNum="27" pc="268435783" symbol="onShow"/>
-        <entry filename="D:\\Dev\\Garmin\\Elevation\\source\\ElevationView.mc" id="11" lineNum="36" pc="268435917" symbol="onUpdate"/>
-        <entry filename="D:\\Dev\\Garmin\\Elevation\\source\\ElevationView.mc" id="11" lineNum="37" pc="268435921" symbol="onUpdate"/>
-        <entry filename="D:\\Dev\\Garmin\\Elevation\\source\\ElevationView.mc" id="11" lineNum="38" pc="268435957" symbol="onUpdate"/>
-        <entry filename="D:\\Dev\\Garmin\\Elevation\\source\\ElevationView.mc" id="11" lineNum="39" pc="268435969" symbol="onUpdate"/>
-        <entry filename="D:\\Dev\\Garmin\\Elevation\\source\\ElevationView.mc" id="12" lineNum="42" pc="268435990" symbol="timerCallback"/>
-        <entry filename="D:\\Dev\\Garmin\\Elevation\\source\\ElevationView.mc" id="12" lineNum="43" pc="268435994" symbol="timerCallback"/>
-        <entry filename="D:\\Dev\\Garmin\\Elevation\\source\\ElevationView.mc" id="12" lineNum="44" pc="268436011" symbol="timerCallback"/>
-        <entry filename="D:\\Dev\\Garmin\\Elevation\\source\\ElevationView.mc" id="12" lineNum="45" pc="268436038" symbol="timerCallback"/>
-        <entry filename="D:\\Dev\\Garmin\\Elevation\\source\\ElevationView.mc" id="12" lineNum="46" pc="268436048" symbol="timerCallback"/>
-        <entry filename="D:\\Dev\\Garmin\\Elevation\\source\\ElevationView.mc" id="12" lineNum="47" pc="268436058" symbol="timerCallback"/>
-        <entry filename="D:\\Dev\\Garmin\\Elevation\\source\\ElevationView.mc" id="12" lineNum="48" pc="268436071" symbol="timerCallback"/>
-        <entry filename="D:\\Dev\\Garmin\\Elevation\\source\\ElevationView.mc" id="12" lineNum="49" pc="268436112" symbol="timerCallback"/>
-        <entry filename="D:\\Dev\\Garmin\\Elevation\\source\\ElevationView.mc" id="13" lineNum="56" pc="268436132" symbol="onHide"/>
-        <entry filename="Rez" id="19" lineNum="18" pc="268436137" symbol="MainLayout"/>
-        <entry filename="Rez" id="19" lineNum="21" pc="268436149" symbol="MainLayout"/>
-        <entry filename="Rez" id="19" lineNum="22" pc="268436268" symbol="MainLayout"/>
-        <entry filename="Rez" id="19" lineNum="24" pc="268436332" symbol="MainLayout"/>
+        <entry filename="D:\\Dev\\Garmin\\Elevation\\source\\ElevationView.mc" id="9" lineNum="14" pc="268435560" symbol="initialize"/>
+        <entry filename="D:\\Dev\\Garmin\\Elevation\\source\\ElevationView.mc" id="9" lineNum="15" pc="268435564" symbol="initialize"/>
+        <entry filename="D:\\Dev\\Garmin\\Elevation\\source\\ElevationView.mc" id="9" lineNum="16" pc="268435582" symbol="initialize"/>
+        <entry filename="D:\\Dev\\Garmin\\Elevation\\source\\ElevationView.mc" id="9" lineNum="17" pc="268435610" symbol="initialize"/>
+        <entry filename="D:\\Dev\\Garmin\\Elevation\\source\\ElevationView.mc" id="10" lineNum="20" pc="268435646" symbol="onShow"/>
+        <entry filename="D:\\Dev\\Garmin\\Elevation\\source\\ElevationView.mc" id="10" lineNum="21" pc="268435650" symbol="onShow"/>
+        <entry filename="D:\\Dev\\Garmin\\Elevation\\source\\ElevationView.mc" id="11" lineNum="30" pc="268435784" symbol="onUpdate"/>
+        <entry filename="D:\\Dev\\Garmin\\Elevation\\source\\ElevationView.mc" id="11" lineNum="31" pc="268435788" symbol="onUpdate"/>
+        <entry filename="D:\\Dev\\Garmin\\Elevation\\source\\ElevationView.mc" id="11" lineNum="32" pc="268435824" symbol="onUpdate"/>
+        <entry filename="D:\\Dev\\Garmin\\Elevation\\source\\ElevationView.mc" id="11" lineNum="33" pc="268435836" symbol="onUpdate"/>
+        <entry filename="D:\\Dev\\Garmin\\Elevation\\source\\ElevationView.mc" id="12" lineNum="36" pc="268435857" symbol="timerCallback"/>
+        <entry filename="D:\\Dev\\Garmin\\Elevation\\source\\ElevationView.mc" id="12" lineNum="37" pc="268435861" symbol="timerCallback"/>
+        <entry filename="D:\\Dev\\Garmin\\Elevation\\source\\ElevationView.mc" id="12" lineNum="38" pc="268435878" symbol="timerCallback"/>
+        <entry filename="D:\\Dev\\Garmin\\Elevation\\source\\ElevationView.mc" id="12" lineNum="39" pc="268435905" symbol="timerCallback"/>
+        <entry filename="D:\\Dev\\Garmin\\Elevation\\source\\ElevationView.mc" id="12" lineNum="40" pc="268435915" symbol="timerCallback"/>
+        <entry filename="D:\\Dev\\Garmin\\Elevation\\source\\ElevationView.mc" id="12" lineNum="41" pc="268435925" symbol="timerCallback"/>
+        <entry filename="D:\\Dev\\Garmin\\Elevation\\source\\ElevationView.mc" id="12" lineNum="42" pc="268435938" symbol="timerCallback"/>
+        <entry filename="D:\\Dev\\Garmin\\Elevation\\source\\ElevationView.mc" id="12" lineNum="43" pc="268435951" symbol="timerCallback"/>
+        <entry filename="D:\\Dev\\Garmin\\Elevation\\source\\ElevationView.mc" id="12" lineNum="44" pc="268435995" symbol="timerCallback"/>
+        <entry filename="D:\\Dev\\Garmin\\Elevation\\source\\ElevationView.mc" id="12" lineNum="55" pc="268436121" symbol="timerCallback"/>
+        <entry filename="D:\\Dev\\Garmin\\Elevation\\source\\ElevationView.mc" id="12" lineNum="56" pc="268436195" symbol="timerCallback"/>
+        <entry filename="D:\\Dev\\Garmin\\Elevation\\source\\ElevationView.mc" id="13" lineNum="63" pc="268436215" symbol="onHide"/>
+        <entry filename="Rez" id="19" lineNum="18" pc="268436220" symbol="MainLayout"/>
+        <entry filename="Rez" id="19" lineNum="20" pc="268436232" symbol="MainLayout"/>
+        <entry filename="Rez" id="19" lineNum="21" pc="268436351" symbol="MainLayout"/>
+        <entry filename="Rez" id="19" lineNum="23" pc="268436403" symbol="MainLayout"/>
     </pcToLineNum>
     <symbolTable>
         <entry id="8388639" module="true" symbol="Graphics"/>
@@ -41,6 +43,7 @@
         <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
         <entry id="4" module="true" symbol="globals/Rez/Menus"/>
         <entry id="15" method="true" symbol="MainLayout"/>
+        <entry id="8388924" module="true" symbol="Gregorian"/>
         <entry field="true" id="8388611" module="true" symbol="Toybox"/>
         <entry field="true" id="16" symbol="AppName"/>
         <entry field="true" id="8388963" symbol="altitude"/>
@@ -64,6 +67,7 @@
         <entry id="7" module="true" symbol="globals/Rez/JsonData"/>
         <entry id="3" module="true" symbol="globals/Rez/Drawables"/>
         <entry id="8388644" module="true" symbol="System"/>
+        <entry id="8388645" module="true" symbol="Time"/>
         <entry id="8388769" module="true" object="true" symbol="Rez"/>
         <entry id="19" method="true" symbol="timerCallback"/>
         <entry id="8388640" module="true" symbol="Lang"/>
@@ -91,13 +95,16 @@
         <entry arg="true" endPc="268435484" name="state" stackId="1" startPc="268435479"/>
         <entry arg="true" endPc="268435489" name="state" stackId="1" startPc="268435484"/>
         <entry endPc="268435645" name="dataTimer" stackId="1" startPc="268435564"/>
-        <entry arg="true" endPc="268435990" name="dc" stackId="1" startPc="268435917"/>
-        <entry endPc="268436128" name="altitude" stackId="2" startPc="268436038"/>
-        <entry endPc="268436128" name="altFeet" stackId="3" startPc="268436038"/>
-        <entry endPc="268436128" name="altFeetNum" stackId="4" startPc="268436038"/>
-        <entry endPc="268436131" name="positionInfo" stackId="1" startPc="268435994"/>
-        <entry endPc="268436349" name="rez_cmp_local_bitmap_id_monkey" stackId="2" startPc="268436149"/>
-        <entry arg="true" endPc="268436350" name="dc" stackId="1" startPc="268436137"/>
+        <entry arg="true" endPc="268435857" name="dc" stackId="1" startPc="268435784"/>
+        <entry endPc="268436211" name="altitude" stackId="2" startPc="268435905"/>
+        <entry endPc="268436211" name="today" stackId="6" startPc="268435905"/>
+        <entry endPc="268436211" name="altFeet" stackId="3" startPc="268435905"/>
+        <entry endPc="268436211" name="dateString" stackId="7" startPc="268435905"/>
+        <entry endPc="268436211" name="altMetreNum" stackId="5" startPc="268435905"/>
+        <entry endPc="268436211" name="altFeetNum" stackId="4" startPc="268435905"/>
+        <entry endPc="268436214" name="positionInfo" stackId="1" startPc="268435861"/>
+        <entry endPc="268436420" name="rez_cmp_local_bitmap_id_monkey" stackId="2" startPc="268436232"/>
+        <entry arg="true" endPc="268436421" name="dc" stackId="1" startPc="268436220"/>
     </localVars>
     <annotations>
         <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="id_monkey"/>
