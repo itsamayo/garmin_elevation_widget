@@ -18,7 +18,7 @@ class ElevationView extends WatchUi.View {
 
     function onShow() {
         myText = new WatchUi.Text({
-            :text=>"waiting for GPS data ...",
+            :text=>"waiting for GPS data",
             :color=>Graphics.COLOR_WHITE,
             :font=>Graphics.FONT_SMALL,
             :locX =>WatchUi.LAYOUT_HALIGN_CENTER,
@@ -51,7 +51,7 @@ class ElevationView extends WatchUi.View {
 			        today.month
 			    ]
 			);
-	        myText.setText("GPS altitude:\n" + altFeetNum.toString() + "ft" + "\n" + altMetreNum.toString() + "m" + "\n" + dateString);
+	        myText.setText("GPS altitude:\n" + altFeetNum.toString() + "ft" + "\n" + altMetreNum.toString() + "m" + "\n\n" + dateString);
 	        WatchUi.requestUpdate();
 	    }
 	}
