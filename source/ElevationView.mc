@@ -34,7 +34,13 @@ class ElevationView extends WatchUi.View {
     
     function timerCallback() {
 	    var positionInfo = Position.getInfo();
-	    if (positionInfo has :altitude && positionInfo.altitude != null) {	    	
+	    if (positionInfo has :altitude && positionInfo.altitude != null) {
+	    	var accuracyNum = positionInfo.accuracy;
+	    	var accuracy = accuracyNum == 0 ? "unavailable"
+						: accuracyNum == 1 ? "last known"
+						: accuracyNum == 2 ? "poor"
+						: accuracyNum == 3 ? "fair" : "good";
+	    	    	
 	        var altitude = positionInfo.altitude;	        
 	        var altFeet = altitude*3.28084;
 	        var altFeetNum = altFeet.toNumber();
@@ -51,7 +57,8 @@ class ElevationView extends WatchUi.View {
 			        today.month
 			    ]
 			);
-	        myText.setText("GPS altitude:\n" + altFeetNum.toString() + "ft" + "\n" + altMetreNum.toString() + "m" + "\n\n" + dateString);
+	        myText.setText("Elevation:\n" + altFeetNum.toString() + "ft" + "\n" + altMetreNum.toString() + "m" 
+	        				+ "\n\n" + dateString + "\nAccuracy: " + accuracy);
 	        WatchUi.requestUpdate();
 	    }
 	}
