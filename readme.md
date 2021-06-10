@@ -24,3 +24,7 @@ Data updated every 10 seconds.
 - Follow these [guidelines](http:/https://developer.garmin.com/connect-iq/sdk// "here") to install the Garmin Connect IQ SDK
 - Install supported devices (almost all)
 - Build / run locally from within Eclipse
+
+#### Get on Garmin
+
+Download for your Garmin watch at https://apps.garmin.com/en-US/apps/172c46f6-fe86-4e74-89b2-2b69f6dc3c92 or on the Connect IQ app
