@@ -45,7 +45,7 @@ class ElevationView extends WatchUi.View {
 	        var altFeet = altitude*3.28084;
 	        var altFeetNum = altFeet.toNumber();
 	        var altMetreNum = altitude.toNumber();
-	        var today = Gregorian.info(Time.now(), Time.FORMAT_MEDIUM);
+	        var today = Gregorian.info(positionInfo.when, Time.FORMAT_MEDIUM);	        
 			var dateString = Lang.format(
 			    "$1$:$2$:$3$ $4$ $5$ $6$",
 			    [
