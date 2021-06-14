@@ -13,7 +13,7 @@ class ElevationView extends WatchUi.View {
     function initialize() {
         View.initialize();
         var dataTimer = new Timer.Timer();
-		dataTimer.start(method(:timerCallback), 10000, true);
+		dataTimer.start(method(:timerCallback), 5000, true);
     }
 
     function onShow() {

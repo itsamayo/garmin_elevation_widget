@@ -35,9 +35,9 @@
         <entry filename="D:\\Dev\\Garmin\\Elevation\\source\\ElevationView.mc" id="12" lineNum="62" pc="268436290" symbol="timerCallback"/>
         <entry filename="D:\\Dev\\Garmin\\Elevation\\source\\ElevationView.mc" id="13" lineNum="69" pc="268436310" symbol="onHide"/>
         <entry filename="Rez" id="19" lineNum="18" pc="268436315" symbol="MainLayout"/>
-        <entry filename="Rez" id="19" lineNum="21" pc="268436327" symbol="MainLayout"/>
-        <entry filename="Rez" id="19" lineNum="22" pc="268436446" symbol="MainLayout"/>
-        <entry filename="Rez" id="19" lineNum="24" pc="268436510" symbol="MainLayout"/>
+        <entry filename="Rez" id="19" lineNum="20" pc="268436327" symbol="MainLayout"/>
+        <entry filename="Rez" id="19" lineNum="21" pc="268436446" symbol="MainLayout"/>
+        <entry filename="Rez" id="19" lineNum="23" pc="268436498" symbol="MainLayout"/>
     </pcToLineNum>
     <symbolTable>
         <entry id="8388639" module="true" symbol="Graphics"/>
@@ -106,8 +106,8 @@
         <entry endPc="268436306" name="accuracy" stackId="3" startPc="268435905"/>
         <entry endPc="268436306" name="altFeetNum" stackId="6" startPc="268435905"/>
         <entry endPc="268436309" name="positionInfo" stackId="1" startPc="268435861"/>
-        <entry endPc="268436527" name="rez_cmp_local_bitmap_id_monkey" stackId="2" startPc="268436327"/>
-        <entry arg="true" endPc="268436528" name="dc" stackId="1" startPc="268436315"/>
+        <entry endPc="268436515" name="rez_cmp_local_bitmap_id_monkey" stackId="2" startPc="268436327"/>
+        <entry arg="true" endPc="268436516" name="dc" stackId="1" startPc="268436315"/>
     </localVars>
     <annotations>
         <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="id_monkey"/>
