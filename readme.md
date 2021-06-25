@@ -15,7 +15,7 @@ Visible accuracy score based on devices GPS signal. Possible scores as follows:
 
 Originally developed for personal use on my Venu Sq due to its lack of a barometric altimeter and the lack of free GPS based altitude/elevation widgets.
 
-Data updated every 10 seconds.
+Data updated every second.
 
 #### Develop / Contribute
 
